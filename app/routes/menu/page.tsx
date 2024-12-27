@@ -374,7 +374,7 @@ function Page() {
         </div>
       </main>
       <div className="flex items-center justify-center py-12">
-        <Image src={"/clients.png"} alt="" height={275} width={1322} />
+        <Image src={"/Clients.png"} alt="" height={275} width={1322} />
       </div>
     </div>
   );

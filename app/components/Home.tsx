@@ -575,7 +575,7 @@ export default function Home() {
               <ul className="space-x-3 w-full flex">
                 <li>
                   <Image
-                    src={"/chef1.png"}
+                    src={"/Chef1.png"}
                     alt="chef 1"
                     width={312}
                     height={391}
@@ -583,7 +583,7 @@ export default function Home() {
                 </li>
                 <li>
                   <Image
-                    src={"/chef2.png"}
+                    src={"/Chef2.png"}
                     alt="chef 2"
                     width={312}
                     height={391}
@@ -591,7 +591,7 @@ export default function Home() {
                 </li>
                 <li>
                   <Image
-                    src={"/chef3.png"}
+                    src={"/Chef3.png"}
                     alt="chef 3"
                     width={312}
                     height={391}
@@ -599,7 +599,7 @@ export default function Home() {
                 </li>
                 <li>
                   <Image
-                    src={"/chef4.png"}
+                    src={"/Chef4.png"}
                     alt="chef 4"
                     width={312}
                     height={391}

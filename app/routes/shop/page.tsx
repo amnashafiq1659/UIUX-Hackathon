@@ -20,7 +20,7 @@ export default function Page() {
         </div>
       </div>
       <div className="flex items-center justify-center my-16">
-        <Image src={"/shop.png"} alt="shop" width={1320} height={1923} />
+        <Image src={"/Shop.png"} alt="shop" width={1320} height={1923} />
       </div>
     </div>
   );
