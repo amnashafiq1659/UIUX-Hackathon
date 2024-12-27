@@ -125,25 +125,6 @@ export default function Home() {
                     <CiSearch size={24} className="text-white" />
                   </div>
                   <div className="flex items-center gap-2">
-                    <HoverCard>
-                      <HoverCardTrigger></HoverCardTrigger>
-                      <HoverCardContent className="w-[150%] p-3 bg-black opacity-85 border-primYellow">
-                        <ul className="text-white inter text-[16px] leading-[24px]">
-                          <li className="border-b-[1px] border-zinc-500 py-2">
-                            <Link href={"/routes/signup"}>Sign Up</Link>{" "}
-                          </li>
-                          <li className="flex gap-1 border-b-[1px] border-zinc-500 py-2">
-                            <Link href={"/"}> My Account</Link>{" "}
-                          </li>
-                          <li className="border-b-[1px] border-zinc-500 py-2">
-                            <Link href={"/"}>My Orders</Link>{" "}
-                          </li>
-                          <li className="py-2">
-                            <Link href={"/"}>Log Out</Link>{" "}
-                          </li>
-                        </ul>
-                      </HoverCardContent>
-                    </HoverCard>
                     <div className="hidden lg:flex">
                       <a href="/routes/cart">
                         <PiHandbag size={24} />

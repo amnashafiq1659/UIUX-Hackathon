@@ -97,27 +97,8 @@ function Header() {
           </div>
           <div className="flex items-center gap-2">
             <CiSearch size={24} className="text-white" />
-            <HoverCard>
-              <HoverCardTrigger>
-                <AiOutlineUser size={24} className="text-white" />
-              </HoverCardTrigger>
-              <HoverCardContent className="w-[150%] p-3 bg-black  border-primYellow">
-                <ul className="text-white inter text-[16px] leading-6">
-                  <li className="border-b-[1px] border-zinc-500 py-2">
-                    <Link href={"/routes/login"}>Sign Up</Link>{" "}
-                  </li>
-                  <li className="flex gap-1 border-b-[1px] border-zinc-500 py-2">
-                    <Link href={"/"}> My Account</Link>{" "}
-                  </li>
-                  <li className="border-b-[1px] border-zinc-500 py-2">
-                    <Link href={"/"}>My Orders</Link>{" "}
-                  </li>
-                  <li className="py-2">
-                    <Link href={"/"}>Log Out</Link>{" "}
-                  </li>
-                </ul>
-              </HoverCardContent>
-            </HoverCard>
+            <AiOutlineUser size={24} className="text-white" />
+
             <div className="hidden lg:flex">
               <a href="/routes/cart">
                 <PiHandbag size={24} />
